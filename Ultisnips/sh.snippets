@@ -1,0 +1,41 @@
+# sh 脚本片段
+
+snippet bash "safe bash options" b
+#!/usr/bin/env bash
+# Author: buzhengmiao 
+# vx: Qian_zai521
+# Date: `!v strftime("%Y-%m-%d %H:%M")`
+# Description:
+endsnippet
+
+# snippet fun-m "函数模板" b
+# init(){
+# current_dir=`pwd`
+# echo "当前目录：$current_dir"
+# echo "==================="
+# # 切换目录到脚本目录
+# cd $(dirname $0)
+
+# ${2}
+# }
+
+# end(){
+# ${3:echo "successful"}
+# }
+
+# ${1:fun}
+
+# main(){
+# init
+# end
+# }
+# main
+# endsnippet
+
+snippet fun-init "init 函数模板" b
+init(){
+${1:#current_dir=$(pwd)}
+${2:#echo "当前目录：$current_dir"}
+${3:echo "==================="}
+}
+endsnippet
