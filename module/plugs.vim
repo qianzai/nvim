@@ -84,6 +84,7 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 
 " 翻译插件
+Plug 'voldikss/vim-translator'
 
 Plug 'easymotion/vim-easymotion'
 
@@ -117,3 +118,4 @@ execute 'source ~/.config/nvim/module/plugs/vim-gitgutter.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-visual-multi.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-illuminate.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-move.vim'
+execute 'source ~/.config/nvim/module/plugs/vim-translator.vim'

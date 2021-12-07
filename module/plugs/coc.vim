@@ -76,12 +76,5 @@ augroup mygroup
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
 
-" coc-translator configuration
-" popup
-nmap <Leader>tt <Plug>(coc-translator-p)
-vmap <Leader>tt <Plug>(coc-translator-pv)
-" 导出翻译历史
-nmap <leader>th :CocCommand translator.exportHistory<CR>
-
-" 开关翻译列表
+" 开关文件资源列表
 nmap <space>e <Cmd>CocCommand explorer<CR>
