@@ -21,6 +21,7 @@ Plug 'wincent/terminus'
 
 " 突出显示当前光标对象（所有）
 Plug 'RRethy/vim-illuminate'
+Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
 
 " Git
 Plug 'airblade/vim-gitgutter'
@@ -119,3 +120,4 @@ execute 'source ~/.config/nvim/module/plugs/vim-visual-multi.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-illuminate.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-move.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-translator.vim'
+execute 'source ~/.config/nvim/module/plugs/vim-hexokinase.vim'
