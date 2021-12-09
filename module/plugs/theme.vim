@@ -3,6 +3,9 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 "color dracula
 color deus
 
+" nvim-transparent
+let g:transparent_enabled = v:true
+
 " Show buffers on top
 let g:airline#extensions#tabline#enabled=1
 "Show buffers count

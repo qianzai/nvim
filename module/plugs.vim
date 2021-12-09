@@ -17,7 +17,7 @@ Plug 'mg979/vim-xtabline'
 Plug 'ryanoasis/vim-devicons'	"图标
 Plug 'wincent/terminus'
 
-" Plug 'xiyaowong/nvim-transparent'	"透背景明插件
+Plug 'xiyaowong/nvim-transparent'	"透背景明插件
 
 " 突出显示当前光标对象（所有）
 Plug 'RRethy/vim-illuminate'
