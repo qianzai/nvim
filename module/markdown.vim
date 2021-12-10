@@ -34,6 +34,12 @@ autocmd Filetype markdown nnoremap <buffer> <silent> <leader>mi :nohlsearch<CR>d
 " 插入当前时间
 autocmd Filetype markdown inoremap <buffer> <silent> ,t <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
 
+" vim-table-mode
+let g:table_mode_motion_up_map = '<c-k>'
+let g:table_mode_motion_down_map = '<c-j>'
+let g:table_mode_motion_left_map = '<c-h>'
+let g:table_mode_motion_right_map = '<c-l>'
+
 " md-img-paste
 let file_name = expand('%:t:r')
 let g:mdip_imgdir = "media/".file_name
