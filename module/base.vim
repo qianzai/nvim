@@ -44,49 +44,6 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 " 自动移除末尾空白
 autocmd BufWritePre * :%s/\s\+$//e
 
-" ============================================================================================
-" === 快捷键
-" ============================================================================================
-nmap Q     :q<CR>
-nmap S    :w<CR>
-nmap W    :wq<CR>
-
-noremap K 5k
-noremap J 5j
-noremap H 5h
-noremap L 5l
-
-noremap n nzz
-noremap N Nzz
-
-" Copy to system clipboard
-vnoremap Y "+y
-
-" 行号显示
-map <silent><F4> :set relativenumber!<CR>
-
-" 改变分割窗口大小
-noremap <up> :res +5<CR>
-noremap <down> :res -5<CR>
-noremap <left> :vertical resize-5<CR>
-noremap <right> :vertical resize+5<CR>
-
-"切换文件
-nmap <c-h> :bp<CR>
-nmap <c-l> :bn<CR>
-
-" 关闭当前buffers
-nmap <M-m> :bd!<CR>
-
-"切换窗口
-nmap <M-k> <c-w>k
-nmap <M-j> <c-w>j
-nmap <M-h> <c-w>h
-nmap <M-l> <c-w>l
-
-noremap <ESC> :noh<return><ESC>
-noremap \p :echo expand('%:p')<CR>
-
 noremap <space>R :call CompileRunGcc()<CR>
 func! CompileRunGcc()
 	exec "w"
