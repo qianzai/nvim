@@ -34,3 +34,6 @@ nmap <M-m> :bd!<CR>
 
 noremap <ESC> :noh<return><ESC><c-w>o
 noremap \p :echo expand('%:p')<CR>
+
+" bash
+autocmd Filetype sh nnoremap <buffer> <silent> <leader>S :!shfmt -l -w %<CR><CR>

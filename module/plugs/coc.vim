@@ -9,6 +9,7 @@ let g:coc_global_extensions = [
 			\'coc-marketplace',
 			\'coc-markmap',
 			\'coc-diagnostic',
+			\'coc-prisma',
 			\'coc-translator']
 
 " Use <c-x> to 触发提示
@@ -78,3 +79,5 @@ augroup end
 
 " 开关文件资源列表
 nmap <space>e <Cmd>CocCommand explorer<CR>
+
+autocmd Filetype markdown nnoremap <buffer> <silent> <leader>ms :CocCommand markmap.watch<CR>
