@@ -1,4 +1,4 @@
-noremap <LEADER>tf :Vista!!<CR>
+" noremap <LEADER>tf :Vista!!<CR>
 noremap <c-t> :silent! Vista finder coc<CR>
 let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
 " let g:vista_icon_indent = ["▸ ", ""]

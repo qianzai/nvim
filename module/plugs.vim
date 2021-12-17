@@ -80,7 +80,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " 侧边栏上向您显示寄存器的内容
-Plug 'junegunn/vim-peekaboo'
+" Plug 'junegunn/vim-peekaboo'
 
 Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 
@@ -97,11 +97,14 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'dkarter/bullets.vim'
 " Plug '907th/vim-auto-save'
+
+Plug 'folke/which-key.nvim'
 call plug#end()
 
 "==================== Start of Plugin Settings =====================
 execute 'source ~/.config/nvim/module/plugs/theme.vim'
 execute 'source ~/.config/nvim/module/plugs/fzf.vim'
+execute 'source ~/.config/nvim/module/plugs/far.vim'
 execute 'source ~/.config/nvim/module/plugs/rnvimr.vim'
 execute 'source ~/.config/nvim/module/plugs/undotree.vim'
 execute 'source ~/.config/nvim/module/plugs/rainbow.vim'
@@ -113,7 +116,6 @@ execute 'source ~/.config/nvim/module/plugs/vim-easymotion.vim'
 execute 'source ~/.config/nvim/module/plugs/indentLine.vim'
 " execute 'source ~/.config/nvim/module/plugs/vim-auto-save.vim'
 execute 'source ~/.config/nvim/module/plugs/wildfire.vim'
-execute 'source ~/.config/nvim/module/plugs/far.vim'
 execute 'source ~/.config/nvim/module/plugs/vista.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-gitgutter.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-visual-multi.vim'
@@ -121,3 +123,4 @@ execute 'source ~/.config/nvim/module/plugs/vim-illuminate.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-move.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-translator.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-hexokinase.vim'
+execute 'source ~/.config/nvim/module/plugs/which-key.vim'

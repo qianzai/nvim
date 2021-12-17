@@ -3,7 +3,7 @@
 " HexokinaseTurnOn	Turn on colouring (refresh if already turned on)
 " HexokinaseTurnOff	Turn off colouring
 
-noremap <leader>ht :HexokinaseToggle<CR>	"切换文件中颜色显示
+" noremap <leader>ht :HexokinaseToggle<CR>	"切换文件中颜色显示
 
 let g:Hexokinase_highlighters = ['sign_column']
 

@@ -7,4 +7,4 @@ let g:rnvimr_draw_border = 1
 " 让Neovim 擦除Ranger删除的文件对应的缓冲区
 let g:rnvimr_enable_bw = 1
 
-nnoremap <silent> <space>rr :RnvimrToggle<CR><C-\><C-n>:RnvimrResize 0<CR>
+" nnoremap <silent> <space>rr :RnvimrToggle<CR><C-\><C-n>:RnvimrResize 0<CR>

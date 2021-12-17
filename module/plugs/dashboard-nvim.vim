@@ -37,16 +37,16 @@ let g:dashboard_custom_section={
           \ 'description': [' 查找内容                 SPC f w'],
           \ 'command':function('dashboard#handler#find_word')},
     \ 'f_change_colorscheme'          :{
-          \ 'description': [' 切换主题                 SPC t c'],
+          \ 'description': [' 切换主题                 SPC c t'],
           \ 'command':function('dashboard#handler#change_colorscheme')},
   \ }
 
-nnoremap <silent> <Leader>fn :DashboardNewFile<CR>
-nnoremap <silent> <Leader>ff :DashboardFindFile<CR>
-nnoremap <silent> <Leader>fh :DashboardFindHistory<CR>
-nnoremap <silent> <Leader>fb :DashboardJumpMark<CR>
-nnoremap <silent> <Leader>fw :DashboardFindWord<CR>
-nnoremap <silent> <Leader>tc :DashboardChangeColorscheme<CR>
+" nnoremap <silent> <Leader>fn :DashboardNewFile<CR>
+" nnoremap <silent> <Leader>ff :DashboardFindFile<CR>
+" nnoremap <silent> <Leader>fh :DashboardFindHistory<CR>
+" nnoremap <silent> <Leader>fb :DashboardJumpMark<CR>
+" nnoremap <silent> <Leader>fw :DashboardFindWord<CR>
+" nnoremap <silent> <Leader>tc :DashboardChangeColorscheme<CR>
 
 
 nmap <Leader>ss :<C-u>SessionSave<CR>

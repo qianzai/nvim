@@ -6,4 +6,4 @@ let g:undotree_DiffpanelHeight = 8
 let g:undotree_SplitWidth = 24
 
 " Undotree
-noremap U :UndotreeToggle<CR>	"打开Undotree
+" noremap U :UndotreeToggle<CR>	"打开Undotree

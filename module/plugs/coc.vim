@@ -32,8 +32,8 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 " 跳转报错位置
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
+" nmap <silent> [g <Plug>(coc-diagnostic-prev)
+" nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -63,11 +63,11 @@ autocmd BufRead,BufNewFile tsconfig.json set filetype=jsonc
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " 变量重命名
-nmap <leader>rn <Plug>(coc-rename)
+" nmap <leader>rn <Plug>(coc-rename)
 
 " 格式化所选代码
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+" xmap <leader>f  <Plug>(coc-format-selected)
+" nmap <leader>f  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -78,6 +78,6 @@ augroup mygroup
 augroup end
 
 " 开关文件资源列表
-nmap <space>e <Cmd>CocCommand explorer<CR>
+" nmap <space>e <Cmd>CocCommand explorer<CR>
 
 autocmd Filetype markdown nnoremap <buffer> <silent> <leader>ms :CocCommand markmap.watch<CR>

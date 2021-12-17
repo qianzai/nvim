@@ -49,7 +49,7 @@ autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownCli
 let g:mkdp_browser = 'firefox'
 
 " vim-table-mode
-noremap <Leader>tm :TableModeToggle<CR>
+" noremap <Leader>tm :TableModeToggle<CR>
 
 
 " vim-markdown
@@ -57,4 +57,4 @@ let g:vim_markdown_folding_level=2
 let g:vim_markdown_conceal_code_blocks = 0
 let g:vim_markdown_folding_style_pythonic = 1
 let g:vim_markdown_override_foldtext = 0
-noremap mt :Toc<CR>:vert res 40<CR>
+" noremap mt :Toc<CR>:vert res 40<CR>
