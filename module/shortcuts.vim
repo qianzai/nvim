@@ -64,6 +64,20 @@ g = {
 		},
 	},
 
+m = {
+	name = "marks",
+	j = { "<Plug>(Marks-next)", "下一个marks标记位置" },
+	k = { "<Plug>(Marks-prev)", "上一个marks标记位置" },
+	p = { "<Plug>(Marks-preview)", "预览marks标记位置" },
+	["<space>"] = { "<Plug>(Marks-toggle)", "切换marks标记状态" },
+	d = {
+		name = "删除marks",
+		l = { "<Plug>(Marks-deleteline)", "删除当前行的marks标记位置" },
+		b = { "<Plug>(Marks-deletebuf)", "删除当前buf的marks标记位置" },
+		}
+	},
+
+
 ["<leader>rr"] = { ":RnvimrToggle<CR><C-\\><C-n>:RnvimrResize 0<CR>", "打开rnvimr" },
 ["<leader>rn"] = { "<Plug>(coc-rename)", "变量重命名" },
 

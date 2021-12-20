@@ -49,6 +49,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 代码片段
 Plug 'honza/vim-snippets'
 
+" 位置标记
+Plug 'chentau/marks.nvim'
+
 " 函数列表
 Plug 'liuchengxu/vista.vim'
 
@@ -124,3 +127,4 @@ execute 'source ~/.config/nvim/module/plugs/vim-move.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-translator.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-hexokinase.vim'
 execute 'source ~/.config/nvim/module/plugs/which-key.vim'
+execute 'source ~/.config/nvim/module/plugs/marks.vim'
