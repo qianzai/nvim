@@ -100,6 +100,7 @@ m = {
 	name = "打开列表",
 	f = { ":Vista!!<CR>", "函数列表" },
 	m = { ":Toc<CR>:vert res 40<CR>", "Markdown大纲列表" },
+	t = { ":TodoTrouble<CR>", "代办事项列表" },
 	},
 
 ["<leader>mt"] = { ":TableModeToggle<CR>", "表格模式" },

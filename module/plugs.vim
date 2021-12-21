@@ -19,6 +19,11 @@ Plug 'wincent/terminus'
 
 Plug 'xiyaowong/nvim-transparent'	"透背景明插件
 
+" TODO待办事项
+Plug 'nvim-lua/plenary.nvim'
+Plug 'folke/todo-comments.nvim'
+
+
 " 突出显示当前光标对象（所有）
 Plug 'RRethy/vim-illuminate'
 Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
@@ -108,6 +113,7 @@ Plug 'folke/which-key.nvim'
 
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'romgrk/nvim-treesitter-context'
+Plug 'folke/trouble.nvim'
 
 
 call plug#end()
@@ -137,3 +143,5 @@ execute 'source ~/.config/nvim/module/plugs/vim-hexokinase.vim'
 execute 'source ~/.config/nvim/module/plugs/which-key.vim'
 execute 'source ~/.config/nvim/module/plugs/marks.vim'
 execute 'source ~/.config/nvim/module/plugs/nvim-treesitter.vim'
+execute 'source ~/.config/nvim/module/plugs/todo-comments.vim'
+execute 'source ~/.config/nvim/module/plugs/trouble.vim'
