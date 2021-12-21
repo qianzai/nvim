@@ -92,6 +92,7 @@ Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 " 翻译插件
 Plug 'voldikss/vim-translator'
 
+" 光标快速移动
 Plug 'easymotion/vim-easymotion'
 
 " Markdown
@@ -104,6 +105,11 @@ Plug 'dkarter/bullets.vim'
 " Plug '907th/vim-auto-save'
 
 Plug 'folke/which-key.nvim'
+
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'romgrk/nvim-treesitter-context'
+
+
 call plug#end()
 
 "==================== Start of Plugin Settings =====================
@@ -130,3 +136,4 @@ execute 'source ~/.config/nvim/module/plugs/vim-translator.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-hexokinase.vim'
 execute 'source ~/.config/nvim/module/plugs/which-key.vim'
 execute 'source ~/.config/nvim/module/plugs/marks.vim'
+execute 'source ~/.config/nvim/module/plugs/nvim-treesitter.vim'
