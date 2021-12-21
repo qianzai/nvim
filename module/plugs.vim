@@ -25,6 +25,8 @@ Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
 
 " Git
 Plug 'airblade/vim-gitgutter'
+Plug 'tanvirtin/vgit.nvim'
+Plug 'nvim-lua/plenary.nvim'
 
 
 " fzf.vim
@@ -120,7 +122,7 @@ execute 'source ~/.config/nvim/module/plugs/indentLine.vim'
 " execute 'source ~/.config/nvim/module/plugs/vim-auto-save.vim'
 execute 'source ~/.config/nvim/module/plugs/wildfire.vim'
 execute 'source ~/.config/nvim/module/plugs/vista.vim'
-execute 'source ~/.config/nvim/module/plugs/vim-gitgutter.vim'
+execute 'source ~/.config/nvim/module/plugs/git.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-visual-multi.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-illuminate.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-move.vim'
