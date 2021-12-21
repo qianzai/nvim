@@ -44,6 +44,8 @@ Plug 'kevinhwang91/rnvimr'
 " far 查找与替换
 Plug 'brooth/far.vim'
 
+Plug 'kevinhwang91/nvim-hlslens'
+
 " Undotree.vim
 Plug 'mbbill/undotree'
 
