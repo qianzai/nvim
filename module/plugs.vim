@@ -7,7 +7,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 " ============================================================================================
 " === Install Plugins with Vim-Plug
 " ============================================================================================
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.config/nvimdata/plugged')
 " theme
 Plug 'theniceboy/nvim-deus'
 Plug 'vim-airline/vim-airline'
@@ -97,7 +97,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 
 " 翻译插件
-Plug 'voldikss/vim-translator'
+" Plug 'voldikss/vim-translator'
 
 " 光标快速移动
 Plug 'easymotion/vim-easymotion'
@@ -117,6 +117,8 @@ Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'romgrk/nvim-treesitter-context'
 Plug 'folke/trouble.nvim'
 
+Plug 'https://gitlab.com/yorickpeterse/nvim-window.git'
+Plug 'luukvbaal/stabilize.nvim'
 
 call plug#end()
 
@@ -140,7 +142,7 @@ execute 'source ~/.config/nvim/module/plugs/git.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-visual-multi.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-illuminate.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-move.vim'
-execute 'source ~/.config/nvim/module/plugs/vim-translator.vim'
+" execute 'source ~/.config/nvim/module/plugs/vim-translator.vim'
 execute 'source ~/.config/nvim/module/plugs/vim-hexokinase.vim'
 execute 'source ~/.config/nvim/module/plugs/which-key.vim'
 execute 'source ~/.config/nvim/module/plugs/marks.vim'

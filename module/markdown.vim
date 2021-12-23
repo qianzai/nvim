@@ -53,6 +53,7 @@ let g:mkdp_browser = 'firefox'
 
 
 " vim-markdown
+let g:vim_markdown_no_default_key_mappings = 1
 let g:vim_markdown_folding_level=2
 let g:vim_markdown_conceal_code_blocks = 0
 let g:vim_markdown_folding_style_pythonic = 1

@@ -26,13 +26,13 @@ set hidden
 
 
 " 退出文件后，依然保存修改记录
-silent !mkdir -p $HOME/.config/nvim/tmp/backup
-silent !mkdir -p $HOME/.config/nvim/tmp/undo
-set backupdir=$HOME/.config/nvim/tmp/backup,.
-set directory=$HOME/.config/nvim/tmp/backup,.
+silent !mkdir -p $HOME/.config/nvimdata/tmp/backup
+silent !mkdir -p $HOME/.config/nvimdata/tmp/undo
+set backupdir=$HOME/.config/nvimdata/tmp/backup,.
+set directory=$HOME/.config/nvimdata/tmp/backup,.
 if has('persistent_undo')
 	set undofile
-		set undodir=$HOME/.config/nvim/tmp/undo,.
+		set undodir=$HOME/.config/nvimdata/tmp/undo,.
 		endif
 
 " 让配置变更立即生效
