@@ -39,6 +39,7 @@ wk.register({
 ["U"] = { ":UndotreeToggle<CR>","打开Undotree" },
 ["<F4>"] = { ":set relativenumber!<CR>","行号显示" },
 ["<M-f>"] = { ":FZF<CR>", "打开FZF" },
+["<c-g>"] = { ":LazyGit<CR>", "打开Lazygit" },
 ["<leader>e"] = { "<Cmd>CocCommand explorer<CR>", "文件资源列表" },
 
 g = {
