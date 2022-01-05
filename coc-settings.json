@@ -68,10 +68,9 @@
     "sh": "shfmt"
   },
   "translator.engines": ["google", "youdao"],
-  "translator.proxy": "socks://127.0.0.1:7891",
   "languageserver": {
     "bash": {
-      "command": "/home/bzm/Public/NPM/prefix/bin/bash-language-server",
+      "command": "bash-language-server",
       "args": ["start"],
       "filetypes": ["sh"],
       "ignoredRootPaths": ["~"]

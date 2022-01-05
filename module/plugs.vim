@@ -30,7 +30,7 @@ Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
 
 " Git
 Plug 'airblade/vim-gitgutter'
-Plug 'tanvirtin/vgit.nvim'
+Plug 'qianzai/vgit.nvim'
 Plug 'kdheepak/lazygit.nvim'
 Plug 'nvim-lua/plenary.nvim'
 

@@ -1,5 +1,6 @@
 let g:python_host_prog='/usr/bin/python2'
 let g:python3_host_prog='/usr/bin/python3'
+let g:plug_url_format='https://hub.fastgit.org/%s.git'
 
 
 
