@@ -103,6 +103,9 @@ Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 " 光标快速移动
 Plug 'easymotion/vim-easymotion'
 
+" 日历
+Plug 'itchyny/calendar.vim'
+
 " Markdown
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug'] }

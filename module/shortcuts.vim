@@ -31,6 +31,7 @@ wk.register({
 ["N"] = { "Nzz","上一个搜索位置" },
 
 ["\\p"] = { ":echo expand('%:p')<CR>","打印当前buffer路径" },
+["\\c"] = { ":Calendar<CR>","打开日历" },
 
 ["<c-h>"] = { ":bp<CR>","上一个buf" },
 ["<c-l>"] = { ":bn<CR>","上一个buf" },
