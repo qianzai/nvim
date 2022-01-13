@@ -71,6 +71,9 @@ Plug 'glepnir/dashboard-nvim'
 " 快速注释
 Plug 'preservim/nerdcommenter'
 
+" 对齐
+Plug 'godlygeek/tabular'    "tabu
+
 " 补括号
 Plug 'jiangmiao/auto-pairs'
 
