@@ -133,6 +133,7 @@ wk.register({
 ["gJ"] = { "<Plug>Markdown_MoveToNextSiblingHeader","下一个兄弟标题" },
 ["gK"] = { "<Plug>Markdown_MoveToPreviousSiblingHeader","上一个兄弟标题" },
 ["gc"] = { "<Plug>Markdown_MoveToCurHeader","当前标题" },
+["gx"] = { "<Plug>Markdown_OpenUrlUnderCursor","打开引用" },
 ["m-"] = { ":HeaderDecrease<CR>","降低标题级别" },
 ["m+"] = { ":HeaderIncrease<CR>","增加标题级别" },
 })

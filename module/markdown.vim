@@ -47,6 +47,7 @@ autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownCli
 
 " markdown-preview
 let g:mkdp_browser = 'firefox'
+let g:mkdp_auto_start = 1
 
 " vim-table-mode
 " noremap <Leader>tm :TableModeToggle<CR>
@@ -54,7 +55,7 @@ let g:mkdp_browser = 'firefox'
 
 " vim-markdown
 let g:vim_markdown_no_default_key_mappings = 1
-let g:vim_markdown_folding_level=2
+let g:vim_markdown_folding_level=6
 let g:vim_markdown_conceal_code_blocks = 0
 let g:vim_markdown_folding_style_pythonic = 1
 let g:vim_markdown_override_foldtext = 0
